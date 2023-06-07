@@ -38,6 +38,8 @@
             // 
             // cboOperaciones
             // 
+            this.cboOperaciones.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cboOperaciones.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboOperaciones.FormattingEnabled = true;
             this.cboOperaciones.Items.AddRange(new object[] {
@@ -59,6 +61,8 @@
             // 
             // lblIndicacion
             // 
+            this.lblIndicacion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblIndicacion.AutoSize = true;
             this.lblIndicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIndicacion.Location = new System.Drawing.Point(12, 15);
@@ -70,6 +74,7 @@
             // 
             // btnEjecutar
             // 
+            this.btnEjecutar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEjecutar.Location = new System.Drawing.Point(605, 5);
             this.btnEjecutar.Name = "btnEjecutar";
             this.btnEjecutar.Size = new System.Drawing.Size(118, 44);
@@ -80,6 +85,8 @@
             // 
             // lblDescripcion
             // 
+            this.lblDescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblDescripcion.Location = new System.Drawing.Point(17, 66);
             this.lblDescripcion.Name = "lblDescripcion";
@@ -88,6 +95,9 @@
             // 
             // dgvGrilla
             // 
+            this.dgvGrilla.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvGrilla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvGrilla.Location = new System.Drawing.Point(18, 201);
             this.dgvGrilla.Name = "dgvGrilla";

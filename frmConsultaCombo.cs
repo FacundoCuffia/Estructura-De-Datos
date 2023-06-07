@@ -125,66 +125,12 @@ namespace Pry_EstructuraDeDatos
                     break;
 
             }
-
         }
 
         //Ejecutar el comando seleccionado.
         private void btnEjecutar_Click(object sender, EventArgs e)
         {
-            Base.Listar(dgvGrilla, SQL);
-
-            
-            //switch (cboOperaciones.SelectedIndex)
-            //{
-            //    case 0:
-                    
-            //        break;
-
-            //    case 1:
-            //        
-            //   
-
-            //    case 2:
-            //        
-            //     
-            //        break;
-
-            //    case 3:
-            //  
-
-            //    case 4:
-            //        
-            //        Base.Listar(dgvGrilla, SQL);
-            //        break;
-
-            //    case 5:
-            //        
-            //        Base.Listar(dgvGrilla, SQL);
-            //        break;
-
-            //    case 6:
-            //        
-            //        break;
-
-            //    case 7:
-            //        
-            //        Base.Listar(dgvGrilla, SQL);
-            //        break;
-
-            //    case 8:
-            //        
-            //        Base.Listar(dgvGrilla, SQL);
-            //        break;
-
-            //    case 9:
-            //        SQL = "";
-            //        lblDescripcion.Text = "";
-            //        break;
-
-            //    default:
-            //        lblDescripcion.Text = "Default";
-            //        break;
-            //}
+            Base.Listar(dgvGrilla, SQL);        
         }
     }
 }
