@@ -57,7 +57,7 @@ namespace Pry_EstructuraDeDatos
                 comando.CommandText = QUERY;
                 DataTable tabla = new DataTable();
                 adaptador = new OleDbDataAdapter(comando);
-                adaptador.Fill(tabla, "Resultado");
+                adaptador.Fill(tabla);
                 dgvGrilla.DataSource = null;
                 dgvGrilla.DataSource = tabla;
 
@@ -65,8 +65,8 @@ namespace Pry_EstructuraDeDatos
             }
             catch (Exception e)
             {
+                conexion.Close();
                 MessageBox.Show(e.Message);
-                throw;
             }
         }
 

@@ -46,6 +46,9 @@
             this.árbolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.grafoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tiposDeOperacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.operacionesComboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -170,10 +173,34 @@
             // 
             // baseDeDatosToolStripMenuItem
             // 
+            this.baseDeDatosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tiposDeOperacionesToolStripMenuItem,
+            this.consultasToolStripMenuItem,
+            this.operacionesComboToolStripMenuItem});
             this.baseDeDatosToolStripMenuItem.Name = "baseDeDatosToolStripMenuItem";
             this.baseDeDatosToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
             this.baseDeDatosToolStripMenuItem.Text = "Base de datos";
-            this.baseDeDatosToolStripMenuItem.Click += new System.EventHandler(this.baseDeDatosToolStripMenuItem_Click);
+            // 
+            // tiposDeOperacionesToolStripMenuItem
+            // 
+            this.tiposDeOperacionesToolStripMenuItem.Name = "tiposDeOperacionesToolStripMenuItem";
+            this.tiposDeOperacionesToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.tiposDeOperacionesToolStripMenuItem.Text = "Tipos de Operaciones";
+            this.tiposDeOperacionesToolStripMenuItem.Click += new System.EventHandler(this.tiposDeOperacionesToolStripMenuItem_Click);
+            // 
+            // consultasToolStripMenuItem
+            // 
+            this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
+            this.consultasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.consultasToolStripMenuItem.Text = "Consultas";
+            this.consultasToolStripMenuItem.Click += new System.EventHandler(this.consultasToolStripMenuItem_Click);
+            // 
+            // operacionesComboToolStripMenuItem
+            // 
+            this.operacionesComboToolStripMenuItem.Name = "operacionesComboToolStripMenuItem";
+            this.operacionesComboToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.operacionesComboToolStripMenuItem.Text = "Operaciones Combo";
+            this.operacionesComboToolStripMenuItem.Click += new System.EventHandler(this.operacionesComboToolStripMenuItem_Click);
             // 
             // frm
             // 
@@ -215,6 +242,9 @@
         private System.Windows.Forms.ToolStripMenuItem grafoToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem baseDeDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tiposDeOperacionesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem operacionesComboToolStripMenuItem;
     }
 }
 

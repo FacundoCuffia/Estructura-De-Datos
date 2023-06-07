@@ -60,10 +60,22 @@ namespace Pry_EstructuraDeDatos
             frmArbolBinario.ShowDialog();
         }
 
-        private void baseDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void tiposDeOperacionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmBaseDeDatos frmBase = new frmBaseDeDatos();
             frmBase.ShowDialog();
+        }
+
+        private void consultasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultas frmConsultas = new frmConsultas();
+            frmConsultas.ShowDialog();
+        }
+
+        private void operacionesComboToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsultaCombo frmConsultaCombo = new frmConsultaCombo();
+            frmConsultaCombo.ShowDialog();
         }
     }
 }
